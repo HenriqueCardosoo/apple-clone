@@ -1,0 +1,25 @@
+.section-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000;
+  color: #86868b;
+}
+
+.detalhes {
+  padding-bottom: 40px;
+  font-size: 52px;
+  position: relative;
+  left: -21rem;
+  margin: 0 5rem;
+}
+
+.section-bg img {
+  width: auto;
+}
+.colors {
+  padding: 6rem;
+  font-size: var(--font-12px);
+  color: var(--color-white-padrao);
+}

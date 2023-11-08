@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header-bg {
+  background: #000;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 44px;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+img {
+  width: 15px;
+}
+
+.nav-item a {
+  position: relative;
+  font-size: 0.75rem;
+  color: var(--color-principal);
+  text-decoration: none;
+}

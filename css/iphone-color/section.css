@@ -136,7 +136,7 @@
   transition: 0.1s;
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 1000px) {
   .section-presentation video {
     width: 1068px;
   }
@@ -177,4 +177,4 @@
   .button-bg {
     top: -6rem;
   }
-} */
+}

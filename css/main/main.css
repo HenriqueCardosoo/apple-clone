@@ -25,6 +25,7 @@
   border: 2px solid;
   height: 100vh;
   background-color: #000;
+  overflow: hidden;
 }
 
 .main-conteudo img {
@@ -61,4 +62,23 @@
 .price span {
   position: absolute;
   font-size: 10px;
+}
+
+@media (max-width: 1000px) {
+  .main-conteudo img {
+    width: 656px;
+  }
+}
+
+@media (max-width: 750px) {
+  .main-conteudo img {
+    width: auto;
+    padding-bottom: 0;
+    left: 25px;
+  }
+  .price {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+  }
 }

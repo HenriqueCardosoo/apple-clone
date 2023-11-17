@@ -41,16 +41,19 @@
 
     <div class="button-bg">
       <a class="button-buy" href="">Comprar</a>
-
       <div class="preco price">
         <p>A partir de R$ 608,25/mês ou R$ 7.299<span>◊</span></p>
       </div>
     </div>
   </section>
+
   <main class="main-bg">
     <div class="main-conteudo">
       <h1>iPhone 15 Pro</h1>
-      <img src="img/iphone15-desktop.jpg" alt="">
+      <picture>
+        <source media="(min-width: 750px)" srcset="img/iphone15-desktop.jpg">
+        <img src="img/iphone15-mobile.jpg" alt="">
+      </picture>
       <div class="buy">
         <a class="button-buy" href="">Comprar</a>
         <div class="price">
@@ -72,7 +75,7 @@
 
   <section class="section-bg">
     <h2 class="detalhes">Explore os detalhes.</h2>
-    <figure><img id="product-image" src="img/iphone-all-colors.jpg" alt="">
+    <figure><img id="product-image" src="img/iphone-natural_titanium.jpg" alt="">
 
     </figure>
     <div class="colors">
@@ -80,10 +83,10 @@
     </div>
     <div id="image-picker">
       <ul>
-        <li id="all-colors">
+        <!-- <li id="all-colors">
           <span class="color selected"></span>
           <span class="description"></span>
-        </li>
+        </li> -->
         <li id="natural_titanium">
           <span class="color"></span>
           <span class="description"></span>

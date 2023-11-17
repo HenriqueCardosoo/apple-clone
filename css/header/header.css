@@ -30,3 +30,12 @@ img {
   color: var(--color-principal);
   text-decoration: none;
 }
+
+@media (max-width: 1000px) {
+  .header-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 870px) {
+}

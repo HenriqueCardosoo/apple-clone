@@ -13,26 +13,29 @@
   color: #2994fa;
 }
 
-.main-conteudo h1 {
+.main-bg h1 {
   color: #beb8ae;
 }
 
-.main-conteudo {
+.main-bg {
+  height: 100vh;
+  background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border: 2px solid;
-  height: 100vh;
-  background-color: #000;
   overflow: hidden;
 }
 
-.main-conteudo img {
+.main-conteudo {
+}
+
+.main-bg img {
   width: auto;
   padding-bottom: 30px;
   position: relative;
-  left: 79px;
+  left: 25px;
 }
 
 .buy {

@@ -20,7 +20,7 @@
 .main-bg {
   height: 100vh;
   margin: 30px;
-  background-color: #000;
+  /* background-color: #000; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,14 +33,10 @@
   padding-bottom: 30px;
   position: relative;
   left: 25px;
+  z-index: -1;
 }
 
 .buy {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 90px; */
   gap: 40px;
   background-color: #000;
 }

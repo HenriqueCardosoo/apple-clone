@@ -15,3 +15,14 @@ buttons.forEach((btn) => {
     image.setAttribute('src', `img/iphone-${id}.jpg`);
   });
 });
+
+function mobile() {
+  const hamburguer = document.querySelector('.hamburguer');
+  const nav = document.querySelector('.nav');
+
+  hamburguer.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+}
+
+mobile();

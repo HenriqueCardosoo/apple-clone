@@ -42,7 +42,7 @@
 }
 
 .section-bg img {
-  width: auto;
+  width: 300px;
 }
 
 .colors {
@@ -176,6 +176,9 @@
   }
   .img-grid video {
     width: 600px;
+  }
+  .section-bg img {
+    width: 240px;
   }
 
   .section-presentation video {

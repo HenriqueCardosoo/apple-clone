@@ -52,7 +52,6 @@
 }
 
 .section-forged {
-  background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,6 +62,7 @@
 
 .section-forged img {
   width: auto;
+  z-index: -1;
 }
 
 .tes {
@@ -76,6 +76,7 @@
   font-size: 80px;
   color: var(--color-white-padrao);
   margin: 60px;
+  z-index: -1;
 }
 
 /* .img-grid {
@@ -178,7 +179,7 @@
     width: 600px;
   }
   .section-bg img {
-    width: 240px;
+    width: 200px;
   }
 
   .section-presentation video {

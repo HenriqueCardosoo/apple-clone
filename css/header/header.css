@@ -20,7 +20,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 .nav-list {
@@ -142,12 +141,12 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #fff;
-
     clip-path: circle(100px at 90% -20%);
     transition: 1s ease-out;
     flex-direction: column;
     gap: 15px;
     pointer-events: none;
+    overflow: hidden;
   }
 
   .nav.active .nav-list {

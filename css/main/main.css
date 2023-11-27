@@ -32,7 +32,6 @@
   width: auto;
   padding-bottom: 30px;
   position: relative;
-  left: 25px;
   z-index: -1;
 }
 
@@ -77,10 +76,19 @@
     padding-bottom: 0;
     left: 25px;
   }
+  #discount {
+    text-align: center;
+    padding: 20px;
+  }
 
   .main-bg {
     height: auto;
     /* border: 2px solid white; */
+  }
+
+  .main-bg img {
+    padding: 20px;
+    width: 100px;
   }
   .price {
     font-size: 19px;

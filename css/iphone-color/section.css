@@ -56,13 +56,45 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* height: 100vh; */
   overflow: hidden;
 }
 
 .section-forged img {
-  width: auto;
+  max-width: 100%;
+  height: 100%;
   z-index: -1;
+}
+.spaced-section {
+  margin: 40px auto;
+  max-width: 100%;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-content {
+  width: 340px;
+  color: #86868b;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.011em;
+}
+
+.section-content p {
+  margin-bottom: 30px;
+}
+
+.section-content strong {
+  color: var(--color-white-padrao);
+}
+
+.strong-title {
+  position: relative;
+  top: -15px;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: 0.003em;
 }
 
 .tes {
@@ -78,16 +110,6 @@
   margin: 60px;
   z-index: -1;
 }
-
-/* .img-grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-/* 
-.img-grid video {
-  border-radius: 50px;
-} */
 
 #image-picker {
   padding: 5px;
@@ -149,6 +171,19 @@
   .section-presentation video {
     width: 1068px;
   }
+  .spaced-section {
+    width: 900px;
+  }
+
+  .section-content {
+    width: 280px;
+  }
+  .strong-title {
+    font-size: 36px;
+  }
+  .section-forged img {
+    width: 700px;
+  }
 
   .img-grid video {
     width: 766px;
@@ -165,9 +200,6 @@
   .section-forged h4 {
     font-size: 45px;
   }
-  .img-grid video {
-    width: 690px;
-  }
 }
 
 @media (max-width: 750px) {
@@ -175,15 +207,18 @@
     font-size: 2.5rem;
     left: 0;
   }
-  .img-grid video {
-    width: 600px;
+  .spaced-section {
+    display: block;
+    margin: 40px auto;
+    width: auto;
   }
   .section-bg img {
     width: 200px;
   }
 
-  .section-presentation video {
-    width: 734px;
+  .section-bg h2 {
+    position: relative;
+    bottom: -30px;
   }
   .button-bg {
     top: -6rem;
@@ -192,5 +227,9 @@
     width: 650px;
     position: relative;
     left: -190px;
+  }
+  .section-forged {
+    align-items: baseline;
+    justify-content: baseline;
   }
 }

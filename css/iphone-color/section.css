@@ -64,6 +64,21 @@
   height: 100%;
   z-index: -1;
 }
+
+.section-forged h4 {
+  font-size: 80px;
+  letter-spacing: -3px;
+  color: var(--color-white-padrao);
+  margin: 60px;
+  z-index: -1;
+}
+
+.a17-pro {
+  position: relative;
+  bottom: -50px;
+  text-align: left;
+}
+
 .spaced-section {
   margin: 40px auto;
   max-width: 100%;
@@ -100,15 +115,6 @@
 .tes {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.section-forged h4 {
-  position: relative;
-  left: -5rem;
-  font-size: 80px;
-  color: var(--color-white-padrao);
-  margin: 60px;
-  z-index: -1;
 }
 
 #image-picker {
@@ -167,14 +173,55 @@
   transition: 0.1s;
 }
 
-@media (max-width: 1000px) {
-  .section-presentation video {
-    width: 1068px;
-  }
+.section-chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+  text-align: center;
+  color: var(--color-white-padrao);
+}
+
+.chip h4 {
+  font-size: 80px;
+  letter-spacing: -3px;
+  margin: 40px;
+}
+
+.chip-paragraph {
+  font-size: 28px;
+  color: #86868b;
+  font-weight: 600;
+}
+
+.chip-gaming img {
+  position: relative;
+  max-width: 100%;
+  bottom: -50px;
+}
+
+.section-forged .honkai {
+  font-size: 15px;
+  padding: 10px;
+  color: #2994fa;
+  font-weight: 600;
+}
+
+@media (max-width: 1020px) {
   .spaced-section {
     width: 900px;
   }
-
+  .chip-spaced {
+    width: 700px;
+  }
   .section-content {
     width: 280px;
   }
@@ -184,12 +231,16 @@
   .section-forged img {
     width: 700px;
   }
-
-  .img-grid video {
-    width: 766px;
-  }
-  .section-forged h4 {
+  .section-forged,
+  .chip h4 {
     font-size: 60px;
+  }
+  .chip h4 {
+    width: 400px;
+  }
+  .chip-paragraph {
+    font-size: 28px;
+    width: 400px;
   }
   .button-bg {
     top: 0;
@@ -203,9 +254,20 @@
 }
 
 @media (max-width: 750px) {
-  .section-forged h4 {
+  .section-forged,
+  .chip h4 {
     font-size: 2.5rem;
     left: 0;
+  }
+  .honkai {
+    margin: 0 auto;
+  }
+  .chip-paragraph {
+    font-size: 20px;
+    width: 290px;
+  }
+  .chip h4 {
+    width: 250px;
   }
   .spaced-section {
     display: block;
@@ -215,7 +277,9 @@
   .section-bg img {
     width: 200px;
   }
-
+  .chip-gaming {
+    width: 300px;
+  }
   .section-bg h2 {
     position: relative;
     bottom: -30px;

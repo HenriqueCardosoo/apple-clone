@@ -1,0 +1,36 @@
+.tittle-footer h2 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.footer-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #101010;
+}
+
+.footer-content {
+  margin: 30px;
+}
+
+.footer-content li {
+  font-size: 28px;
+  margin: 10px;
+}
+
+.footer-content ul {
+  list-style-type: none;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-content h3 {
+  color: #4e4e4e;
+  font-size: 1rem;
+}

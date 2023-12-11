@@ -20,6 +20,7 @@
 .footer-content li {
   font-size: 28px;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .footer-content ul {
@@ -36,12 +37,17 @@
   font-size: 1rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1130px) {
   .footer-bg {
     justify-content: left;
   }
 
   .footer-content li {
     font-size: 20px;
+  }
+
+  .ul-min li {
+    font-size: 15px;
+    width: 118px;
   }
 }

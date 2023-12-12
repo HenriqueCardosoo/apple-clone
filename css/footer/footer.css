@@ -37,17 +37,24 @@
   font-size: 1rem;
 }
 
+.direitos {
+  text-align: center;
+  background-color: #101010;
+  color: #ffffff;
+}
+
 @media (max-width: 1130px) {
   .footer-bg {
     justify-content: left;
   }
-
   .footer-content li {
     font-size: 20px;
   }
-
   .ul-min li {
     font-size: 15px;
     width: 118px;
+  }
+  .direitos {
+    font-size: 14px;
   }
 }

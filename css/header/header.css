@@ -146,6 +146,7 @@ body {
     flex-direction: column;
     gap: 15px;
     pointer-events: none;
+    z-index: 1;
     overflow: hidden;
   }
 
